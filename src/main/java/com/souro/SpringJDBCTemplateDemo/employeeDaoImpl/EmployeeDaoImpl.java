@@ -1,10 +1,10 @@
-package com.souro.SpringJDBCDemo.employeeDaoImpl;
+package com.souro.SpringJDBCTemplateDemo.employeeDaoImpl;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.souro.SpringJDBCDemo.employee.Employee;
-import com.souro.SpringJDBCDemo.employeeDao.EmployeeDao;
+import com.souro.SpringJDBCTemplateDemo.employee.Employee;
+import com.souro.SpringJDBCTemplateDemo.employeeDao.EmployeeDao;
 
 public class EmployeeDaoImpl implements EmployeeDao {
 

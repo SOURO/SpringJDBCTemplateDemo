@@ -1,4 +1,4 @@
-package com.souro.SpringJDBCDemo.employee;
+package com.souro.SpringJDBCTemplateDemo.employee;
 
 public class Employee {
 	private int empId;

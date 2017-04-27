@@ -3,8 +3,8 @@ package com.souro.SpringJDBCTemplateDemo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.souro.SpringJDBCDemo.employee.Employee;
-import com.souro.SpringJDBCDemo.employeeDao.EmployeeDao;
+import com.souro.SpringJDBCTemplateDemo.employee.Employee;
+import com.souro.SpringJDBCTemplateDemo.employeeDao.EmployeeDao;
 
 
 public class App 

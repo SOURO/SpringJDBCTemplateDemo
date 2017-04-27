@@ -1,6 +1,6 @@
-package com.souro.SpringJDBCDemo.employeeDao;
+package com.souro.SpringJDBCTemplateDemo.employeeDao;
 
-import com.souro.SpringJDBCDemo.employee.Employee;
+import com.souro.SpringJDBCTemplateDemo.employee.Employee;
 
 public interface EmployeeDao {
 	public void insertEmployee(Employee employee);
