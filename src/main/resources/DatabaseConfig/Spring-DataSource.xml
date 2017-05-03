@@ -10,8 +10,13 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="username" value="root" />
 		<property name="password" value="souro" />
 	</bean>
+	
 	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	<bean id="namedParameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+		<constructor-arg ref="dataSource"></constructor-arg>
 	</bean>
 
 </beans>
